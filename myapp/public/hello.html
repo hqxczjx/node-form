@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <fieldset>
+        <legend>login</legend>
+        <input type="text" name="user" class="user">
+        <input type="password" name="pwd" class="pwd">
+        <button class="submit">submit</button>
+    </fieldset>
+    <fieldset>
+        <legend>register</legend>
+        <form action="/db/add" method="post">
+            <input type="text" name="user">
+            <input type="password" name="pwd">
+            <input type="submit" value="submit">
+        </form>
+    </fieldset>
+    <script src="./javascripts/main.js"></script>
+</body>
+</html>
